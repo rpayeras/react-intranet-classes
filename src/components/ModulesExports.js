@@ -1,0 +1,23 @@
+/**Archivo generado automaticamente para el funcionamiento de TABS en la app en writeFileExports.js*/ 
+export {default as Dashboard} from './app/dashboard/Dashboard';
+export {default as Reservations} from './sections/cm/Reservations';
+export {default as InformeEjem} from './sections/explotacion/InformeEjem';
+export {default as InformeEjem2} from './sections/explotacion/InformeEjem2';
+export {default as InformeOcupacion} from './sections/explotacion/InformeOcupacion';
+export {default as InformesTUI} from './sections/explotacion/InformesTUI';
+export {default as Piscinas} from './sections/infohotel/Piscinas';
+export {default as InformeEjemplo} from './sections/ocupacion/InformeEjemplo';
+export {default as InformesOcupacion} from './sections/ocupacion/InformesOcupacion';
+export {default as OcupacionMensual} from './sections/ocupacion/OcupacionMensual';
+export {default as ReservationsConfig} from './sections/reservas/ReservationsConfig';
+export {default as ReservationsConfigBK} from './sections/reservas/ReservationsConfigBK';
+export {default as ReservationsList} from './sections/reservas/ReservationsList';
+export {default as ReservationsListCm} from './sections/reservas/ReservationsListCm';
+export {default as Departments} from './sections/sistema/departments/Departments';
+export {default as Hotels} from './sections/sistema/hotels/Hotels';
+export {default as Roles} from './sections/sistema/roles/Roles';
+export {default as Sections} from './sections/sistema/sections/Sections';
+export {default as UserProfile} from './sections/sistema/users/UserProfile';
+export {default as UserProfilePasswordPci} from './sections/sistema/users/UserProfilePasswordPci';
+export {default as Users} from './sections/sistema/users/Users';
+export {default as TreasuryForecast} from './sections/tesoreria/TreasuryForecast';

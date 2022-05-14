@@ -1,0 +1,88 @@
+/*
+ * MENU SUPERIOR
+ *
+ */
+
+#menu-superior {
+  background-color:$primaryTheme;
+  background-image:url('../img/bird.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 2% 25%;
+  color: $colorPrimary;
+  padding-top:2rem;
+
+  .navbar-brand{
+    font-size: 1.25rem;
+    line-height: 1rem;
+    margin-right: 0rem; 
+    padding-right: 0;
+  }
+
+  .navbar-brand:hover{
+    color:$colorPrimary;
+  }
+
+  .btn.btn-outline-primary{
+    color: $bluePrimary;
+    background-image: none;
+    background-color: transparent;
+    border-color: $bluePrimary;
+    color: $bluePrimary;
+    background-image: none;
+    background-color: transparent;
+    border-color: $bluePrimary;
+    cursor:pointer;
+  }
+
+  #button-menu-responsive{
+    background-color:$primaryTheme;
+    color: $colorSecondary;
+  }
+
+  #button-menu-responsive:hover{
+    color: $colorSecondaryHover;
+  }
+
+  .link-header{
+    color: $colorSecondary;
+  }
+  .link-header:hover{
+    color: $colorSecondaryHover;
+  }
+  .btn.btn-outline-primary:hover{
+    color: $colorPrimary;
+    background-color: $bluePrimary;
+    border-color: $bluePrimary;
+  }
+
+  @media (min-width: 576px){
+    #list-menu-superior .form-inline .input-group {
+        width: 100%;
+    }
+  }
+
+
+  //ICONOS Y TEXTOS DE LINKS PERSONALIZADOS
+  #list-menu-superior{
+    .nav-link.link-header{
+      .icon-link{
+          background-repeat: no-repeat;
+          background-position: -15px;
+          padding-left: 15px;
+      }
+      .text-link{
+        color: $colorSecondary;
+      }
+
+      &:hover{
+        .icon-link{
+          background-position: 0px;
+        }
+        .text-link{
+          color: $colorSecondaryHover;
+        }
+      }
+    }
+  }
+}

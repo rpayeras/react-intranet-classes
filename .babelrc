@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "transform-class-properties","transform-replace-object-assign"
+  ],
+  "presets": [
+    ["env", {}],
+    "react"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  }
+}

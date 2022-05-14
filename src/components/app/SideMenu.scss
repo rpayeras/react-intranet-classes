@@ -1,0 +1,104 @@
+/*
+* Menu izquierda
+*/
+
+#menu-izquierda.sidemenu-component {
+  background-color:white;
+  width: 5%;
+  height: 90vh;
+  margin-top: 70px;
+  overflow: auto;
+  transition: all .1s ease .1s;  
+  display:inline-block;
+  text-align:center;
+  
+  i{
+    display: inline;
+  }
+
+  .menu-text{
+    white-space: nowrap;          
+    display:none;
+    opacity: 0;
+    transition: all .1s ease .1s;
+  }
+
+  &:hover{
+    width: 20%;
+    text-align:left;
+    
+    .menu-text{
+      display:inline;      
+      opacity:1;
+    }
+  }
+
+  li{
+      margin-top: 0.5rem;
+  }
+
+  .list-group-item{
+    background-color: $primaryTheme;
+    color: $colorSecondary;
+    padding: 1.5rem;
+
+    &:hover{
+      color: $colorSecondaryHover;
+    }
+
+    span{
+      white-space: nowrap;      
+    }
+    
+    i.fa{
+      margin-right:5px;
+    }
+  }
+
+  .list-group-item.selected{
+    background-color: $sandPrimary;
+    color: $primaryTheme; 
+  }
+
+  .list-group-item.sub-menu{
+    background-color: white;
+    color:$primaryTheme;
+    border-left: none;
+    cursor:pointer;
+    flex-flow: row-reverse;
+    padding: 1rem;
+    border: 0;
+
+    span{
+      white-space: nowrap;
+      margin-left:5px;
+    }
+
+    &:hover{
+      color:$bluePrimaryHover;
+    }
+  }
+  .list-group-item.sub-menu.selected{
+    background-color: $sandPrimary;
+    color: $primaryTheme; 
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-izquierda.sidemenu-component {
+    width: 20%; 
+    display:inline-block;
+    text-align:left;
+    
+    i{
+      display: inline;
+    }
+  
+    .menu-text{
+      display:inline;      
+      opacity:1;
+      transition: all .1s ease .1s;
+    }
+  
+  }
+}  

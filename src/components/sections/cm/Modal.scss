@@ -1,0 +1,13 @@
+#modal-reservations{
+    
+    .table-component .table-element {
+        width: 100%;
+        overflow-y: auto;
+        font-size: .9rem;
+        min-height: 0;
+        
+        .table th, .table td {
+            padding: 0.1rem;
+        }
+    }
+}

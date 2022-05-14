@@ -1,0 +1,38 @@
+.table-component{
+    .table-element{
+        min-height: 50vh;
+    }
+    th{
+        .container-header{
+            width:100%;
+            .text-header{
+                display:inline-block;
+            }
+            .search-header{
+                cursor:text;
+                display:none;
+                input{
+                    width: 80px;
+                    font-size: 0.8rem;
+                }
+            }
+            .utils-header{
+                cursor:pointer;
+                margin-left: 5px;
+                font-size: 1.3rem;
+            }
+            .fa.fa-sort-alpha-asc,.fa-sort-alpha-desc{
+                display:none;
+            }
+        }
+    }  
+    
+    tr{
+        cursor:pointer;
+    }
+    
+    .table td, .table th {
+        border: 1px solid #eceeef;
+    }
+
+}
